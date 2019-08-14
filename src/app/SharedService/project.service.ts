@@ -7,7 +7,7 @@ import { Project } from '../models/project';
 
 @Injectable()
 export class ProjectService {
-  baseUrl: string = "http://localhost:5000/api/projects/";
+  baseUrl: string = "http://localhost/Projectmanagementapi/api/projects/";
 
   constructor(private http: Http) { }
 
