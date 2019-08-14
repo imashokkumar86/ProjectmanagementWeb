@@ -8,7 +8,7 @@ import 'rxjs/add/operator/do';
 
 @Injectable()
 export class TaskService {
-    baseUrl: string = "http://localhost:5000/api/tasks/";
+    baseUrl: string = "http://localhost/Projectmanagementapi/api/tasks/";
     constructor(private http: Http) {
 
     }
