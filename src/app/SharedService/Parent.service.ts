@@ -8,7 +8,7 @@ import 'rxjs/add/operator/do';
 
 @Injectable()
 export class ParentTaskService {
-    baseUrl: string = "http://localhost:5000/api/ParentTaskDetail/";
+    baseUrl: string = "http://localhost/Projectmanagementapi/api/ParentTaskDetail/";
     constructor(private http: Http) {
 
     }
